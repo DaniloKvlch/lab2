@@ -34,9 +34,9 @@ fun main() {
             }
 
         } catch (e: InvalidMenuChoiceException) {
-            println("❌ Помилка: ${e.message}")
+            println("Помилка: ${e.message}")
         } catch (e: NumberFormatException) {
-            println("❌ Введіть, будь ласка, число.")
+            println("Введіть, будь ласка, число.")
             choice = -1
         }
     } while (true)
